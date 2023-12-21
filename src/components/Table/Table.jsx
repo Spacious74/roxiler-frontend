@@ -24,6 +24,7 @@ function Table({ searchText, month }) {
     "December",
   ];
   useEffect(() => {
+    setLoading(true);
     let query = `${BASE_URL}/ecomm/api/v1/products/all`;
 
     if (searchText && month) {
@@ -64,7 +65,7 @@ function Table({ searchText, month }) {
   };
 
   if (load) {
-    return <p>Loading...</p>;
+    return <p>Loading Data...</p>;
   }
 
   return (
