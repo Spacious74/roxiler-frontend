@@ -1,0 +1,50 @@
+.outerchart{
+    background-color: #0000007c;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+.barChart{
+    width: 80%;
+    padding: 30px;
+    background-color: #fff;
+    border: solid 1px #000000;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+}
+.barChart .xtag{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: rotate(-90deg);
+    font-size: 1.2rem;
+    color: #004FC5;
+}
+.barChart .ytag{
+    position: absolute;
+    bottom: 20px;
+    font-size: 1.2rem;
+    color: #004FC5;
+}
+.barChart .head-close{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.head-close .head{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.head-close .closebtn{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #ff0000;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+#monthSelect{
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+#monthSelect:focus{
+    outline: solid 2px #78a5e7;
+    color: #3b5c8d;
+}

@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Searchbar from './components/Searchbar/Searchbar';
+import Table from './components/Table/Table.jsx';
+import Monthselec from './components/MonthSelector/Monthselec.jsx';
+import Stats from './components/Stats/Stats.jsx';
+import Barchart from './components/BarChart/Barchart.jsx';
+import Piechart from './components/PieChart/Piechart.jsx';
 
 function App() {
+
+  const [searchText, setSearchText] = useState('');
+  const [month, setMonth] = useState(0);
+
+  const handleSearchChange = (newSearchText) => {
+    console.log(newSearchText);
+    setSearchText(newSearchText);
+  };
+
+  const handleMonthChange = (newMonth) => {
+    setMonth(newMonth);
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <div className="heading">Roxiler System transaction board</div>
+      <Stats month={month} />
+      <div className='search-setion flex'>
+        < Monthselec onhandleMonthChange={handleMonthChange} />
+        < Searchbar onSearchChange={handleSearchChange}  />
+        < Barchart month={month} />
+        < Piechart month={month} />
+      </div>
+      < Table searchText={searchText} month={month} />
     </div>
   );
 }

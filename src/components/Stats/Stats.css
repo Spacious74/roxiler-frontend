@@ -1,0 +1,23 @@
+.stats-cont{
+    background-color: #fff;
+    padding: 15px;
+    border: solid 1px #111111;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width:fit-content;
+}
+.stats-cont .stathead{
+    font-size: 1.1rem;
+    border-bottom: solid 1px #d4d4d4;
+    padding-bottom: 10px;
+    color: #004FC5;
+    margin-bottom: 10px;
+}
+.stats-cont .stats-box{
+    justify-content: left;
+    gap: 50px;
+}
+.stats-box .stats .value{
+    font-size: 1.2rem;
+    font-weight: bold;
+}

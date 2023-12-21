@@ -1,0 +1,75 @@
+
+.table-container table{
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    /* height: 60vh; */
+    background-color: #ffffff;
+    width: 100%;
+}
+.table-container table thead tr th{
+    border: solid 1px #111111;
+    padding: 8px 10px;
+    background-color: #c3d6f1;
+    text-transform: uppercase;
+}
+.restRow:nth-child(even){
+    background-color: #e6eaf0;
+}
+.restRow{
+    border-bottom: solid 1px #5e5e5e;
+    height: 5vh;
+}
+.restRow td{
+    width: 14%;
+    padding: 5px 10px;
+    border: solid 1px #5e5e5e;
+}
+.restRow .firstColumn{
+    text-align: center;
+    width: 100px;
+}
+.restRow .title{
+    width: 15%;
+}
+.restRow .desc{
+    width: 20%;
+}
+.restRow .image{
+    padding: 5px;
+    text-align: center;
+}
+.restRow .tableimg{
+    width: 20%;
+    height: 5vh;
+}
+
+
+.pagination-cont{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.pagination-cont button{
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: solid 1px #111111;
+}
+.pagination-cont .pagebtns{
+    gap: 5px;
+    justify-content: center;
+}
+.pagination-cont .tablehead{
+    font-size: 1.1rem;
+    color: #004fc5;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.notfound{
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+}
+.notfound td{
+    padding: 10px;
+    font-weight: bolder;
+}
