@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/roxiler-fronted/static/css/main.c4048ebb.css",
+    "main.js": "/roxiler-fronted/static/js/main.804b5e72.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/roxiler-fronted/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/DMSans-Regular.ttf": "/roxiler-fronted/static/media/DMSans-Regular.5796ba67a2ae308b784c.ttf",
+    "index.html": "/roxiler-fronted/index.html",
+    "main.c4048ebb.css.map": "/roxiler-fronted/static/css/main.c4048ebb.css.map",
+    "main.804b5e72.js.map": "/roxiler-fronted/static/js/main.804b5e72.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/roxiler-fronted/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4048ebb.css",
+    "static/js/main.804b5e72.js"
+  ]
+}
