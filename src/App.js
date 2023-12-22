@@ -13,7 +13,6 @@ function App() {
   const [month, setMonth] = useState(0);
 
   const handleSearchChange = (newSearchText) => {
-    console.log(newSearchText);
     setSearchText(newSearchText);
   };
 
